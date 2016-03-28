@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_stats"
+            android:icon="@drawable/stats"
+            android:title="@string/nav_stats"/>
+        <item android:title="@string/nav_group_runes" android:checkableBehavior="single">
+            <menu >
+                <item
+                    android:id="@+id/nav_mark"
+                    android:icon="@drawable/mark"
+                    android:title="@string/nav_marks"/>
+                <item
+                    android:id="@+id/nav_seal"
+                    android:icon="@drawable/seal"
+                    android:title="@string/nav_seals"/>
+                <item
+                    android:id="@+id/nav_glyph"
+                    android:icon="@drawable/glyph"
+                    android:title="@string/nav_glyphs"/>
+                <item
+                    android:id="@+id/nav_quintessence"
+                    android:icon="@drawable/quintessence"
+                    android:title="@string/nav_quintessences"/>
+            </menu>
+        </item>
+        <item android:title="@string/nav_group_settings">
+            <menu>
+                <item
+                    android:id="@+id/nav_versions"
+                    android:icon="@android:drawable/ic_menu_info_details"
+                    android:title="@string/nav_header_version"/>
+            </menu>
+        </item>
+    </group>
+
+
+</menu>

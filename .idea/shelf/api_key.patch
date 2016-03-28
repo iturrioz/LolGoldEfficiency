@@ -1,0 +1,16 @@
+Index: app/src/main/java/net/iturrioz/lolgoldefficiency/data/LolRequest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/net/iturrioz/lolgoldefficiency/data/LolRequest.java	(revision 693059ab6c5602bfee8157d6382d4aa6e7793519)
++++ app/src/main/java/net/iturrioz/lolgoldefficiency/data/LolRequest.java	(revision )
+@@ -13,7 +13,7 @@
+ 
+ public class LolRequest {
+ 
+-    private static String API_KEY = "<pvp.net API KEY>";
++    private static String API_KEY = "ba2d293a-a79a-45ce-a195-d2fe492e9cab";
+ 
+     public static JSONObject getItems(final String version) {
+         return getFile(version, "item.json");
